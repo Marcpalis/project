@@ -84,7 +84,7 @@ header nav img:hover{
 
 div h2{
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 div p{
@@ -185,6 +185,7 @@ transition: transform 0.6s;
 
 .blok{
     display: flex;
+    
 }
 
 .blok a{
