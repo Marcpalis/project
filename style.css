@@ -185,7 +185,40 @@ transition: transform 0.6s;
 
   /* start of page sights */
 
-  article{
-    background-color: #7E8FA6;
-    height: 50vh;
+.blok{
+    background-color: #E9EDF2;
+    height: 70vh;
+    margin-top: 5em;
   }
+
+.blok{
+    display: flex;
+}
+
+.blok a{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    transition: transform .4s ;
+}
+
+.blok a:hover{
+transform: scale(1.2);
+}
+
+.blok img{
+height: 50vh;
+margin-top: 3em;
+margin-left: 2em;
+}
+
+.blok figcaption{
+    background-color: #222;
+    color: floralwhite;
+    font: italic smaller sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    text-align: center;
+    width: auto;
+    margin-left: 2em;
+}
