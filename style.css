@@ -1,16 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
     max-width: 100%;
-    
 }
 
 body{
     background-color: floralwhite;
-    
 }
 
-nav{
+header nav{
     background-color: #DCF2F2;
     height: 15vh;
     max-width: 100%;
@@ -19,16 +16,16 @@ nav{
     justify-content: space-between;
 }
 
-nav ul{
+header nav ul{
     display: flex;
     justify-content: space-between;
 }
 
-nav ul li{
+header nav ul li{
     list-style-type: none;
 }
 
-nav ul li a{
+header nav ul li a{
     margin-right: 8em;
     text-decoration: none;
     color: black;
@@ -36,18 +33,18 @@ nav ul li a{
     font-size: 1.1em;
 }
 
-nav ul li a:hover{
+header nav ul li a:hover{
     color: #D971B5;
     transition: 0.6s;
 }
 
-nav a:focus{
+header nav a:focus{
     background-color: white;
 }
 
 
 
-nav img{
+header nav img{
     height: 4em;
     margin-left: 6em;
     mix-blend-mode: multiply;
@@ -55,7 +52,7 @@ nav img{
     transition: transform .4s;
 }
 
-nav img:hover{
+header nav img:hover{
     transform: scale(1.2);
 }
 
@@ -64,7 +61,7 @@ nav img:hover{
 /* start of Main */
 
 #index{
-    height: auto;
+    height: 80vh;
     width: 100%;
 
 }
@@ -102,7 +99,7 @@ div p{
 article h1{
     border: solid 2px bisque;
     background-color: bisque;
-    width: 3em;
+    width: auto;
     height: fit-content;
     margin-top: 2em;
     padding: 2em;
@@ -216,4 +213,46 @@ margin-left: 2em;
     text-align: center;
     width: auto;
     margin-left: 2em;
+}
+
+/* footer */
+
+
+footer {
+    background-color:#DCF2F2;
+    padding: 1em;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+footer nav ul {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+footer a:hover {
+    text-decoration: underline 3px;
+    color: rgb(255, 184, 77);
+}
+
+footer p small {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
