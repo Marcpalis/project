@@ -102,7 +102,6 @@ div p{
 article h1{
     border: solid 2px bisque;
     background-color: bisque;
-    /* width: fit-content; */
     width: 3em;
     height: fit-content;
     margin-top: 2em;
